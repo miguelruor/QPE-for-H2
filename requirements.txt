@@ -3,6 +3,11 @@ qiskit[visualization]
 qiskit-aer
 numpy
 matplotlib
-pennylane
 pandas
 tqdm
+pennylane
+pennylane-lightning
+pennylane-lightning-gpu
+# PennyLane not yet compatible with JAX > 0.4.28
+# jax==0.4.28
+# jaxlib==0.4.28
